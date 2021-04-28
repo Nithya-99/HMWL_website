@@ -1,0 +1,19 @@
+.header1{
+top: 0px;
+position: sticky;
+z-index: 3;
+}
+#footer{
+bottom: 0px;
+width: 100%;
+position: fixed;
+z-index: 3;
+padding: 0px !important;
+}
+/*.footer1{
+bottom: 0px;
+width: 100%;
+position: relative;
+z-index: 3;
+padding: 0px !important;
+}*/
