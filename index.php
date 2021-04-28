@@ -1,23 +1,5 @@
 <?php include 'header1.php';?>
-<?php
 
-if(!isset($_SESSION))
-{
-	session_start();
-}
-if(isset($_GET['logout'])) 
-{
-	unset($_SESSION['user']);
-	if(isset($_SESSION['Admin'])) 
-	{
-		unset($_SESSION['Admin']);
-	}
-	if(isset($_SESSION['cart']))
-	{
-// unset($_SESSION['cart']);
-	}
-}
-?>
 <!DOCTYPE html>
 <html>
 <head>
